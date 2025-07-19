@@ -90,9 +90,41 @@ background-color:white;
 .box h3{
     font-size: 28px;
 }
+.Featured-section{
+    margin: 100px 165px;
+}
 .Featured-products{
     display: flex;
 }
+.one-place{
+    padding: 23px 0px 23px 96px;
+}
+.one-place h2{
+    font-size: 38px;
+    font-style: bold;
+    width: 610px ;
+    height: 60px;
+}
+.one-place p{
+    width: 500px ;
+    height: 88px;
+    font-size: 16px;
+    font-style: bold;
+    color: rgba(108, 108, 108, 1);
+}
+.one-place button{
+    width: 155px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    border: none;
+}
+
+
+
 @media screen and (max-width: 576px) {
     .Collection-section, .logo,
      .influencer-banner, .nave-section{
