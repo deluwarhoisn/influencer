@@ -5,7 +5,7 @@
 .nave-section{
     display: flex;
     justify-content: space-between;
-    margin: 40px 200px;
+    margin: 60px 200px;
 }
 .nave-section ul{
     display: flex;
@@ -18,7 +18,8 @@ ul a{
     text-decoration: none;
 }
 .influencer-banner{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .influencer{
    margin: 200px 120px 16px 100px;
@@ -33,6 +34,7 @@ ul a{
 }
 .influencer p{
     font-size: 16px;
+    margin-top: 30px;
 }
 .influencer button{
     width: 196px;
@@ -42,6 +44,7 @@ ul a{
     background-color: rgba(224, 44, 109, 1);
     margin: 16px 519px 70px 0px;
     color: white;
+    margin-top: 30px;
 }
 .main-camera{
   margin-left: -50px;
@@ -50,6 +53,7 @@ ul a{
 }
 .images{
     background-image: url('/images/Circle\ design.svg');
+    background-repeat: no-repeat;
 }
 .logo-section{
     padding: 72px 193px 120px 137px;
@@ -59,11 +63,12 @@ ul a{
 .logo{
  display: grid;
     grid-template-columns: repeat(7, .1fr);
-    justify-items: auto;
+    justify-content: center;
 }
 .Collection-section-2{
     background-color: #F1F1F1;
     margin: 97px 197px 100px 197px;
+    margin-top: 50px;
 }
 .Collection-section{
     display: grid;
@@ -75,8 +80,8 @@ ul a{
 }
 .Collection-box{
     width: 329px;height: 447px;
-background-color: white;
-    box-shadow: 8px 8px 8px 8px white;
+background-color:white;
+    box-shadow: 8px 8px 8px 8px gray;
 }
 .box{
     padding: 15px;
@@ -84,6 +89,9 @@ background-color: white;
 }
 .box h3{
     font-size: 28px;
+}
+.Featured-products{
+    display: flex;
 }
 @media screen and (max-width: 576px) {
     .Collection-section, .logo,
